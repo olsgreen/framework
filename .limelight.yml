@@ -1,0 +1,6 @@
+profiles:
+  - php-70
+envs:
+  - COMPOSER_HOME=$CACHE_DIR/composer-cache
+script:
+  - phpunit
