@@ -3,4 +3,5 @@ profiles:
 envs:
   - COMPOSER_HOME=$CACHE_DIR/composer-cache
 script:
+  - composer install --prefer-dist
   - phpunit
