@@ -5,5 +5,5 @@ envs:
   - COMPOSER_HOME=$CACHE_DIR/composer-cache
 script:
   - php -v
-  - composer install --prefer-dist
-  - vendor/bin/phpunit
+  - composer install --prefer-dist --ansi
+  - vendor/bin/phpunit -d memory_limit=384M --colors=always
