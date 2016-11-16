@@ -3,5 +3,6 @@ profiles:
 envs:
   - COMPOSER_HOME=$CACHE_DIR/composer-cache
 script:
+  - php -v
   - composer install --prefer-dist
   - vendor/bin/phpunit
