@@ -1,5 +1,6 @@
 profiles:
   - php-70
+  - php-56
 envs:
   - COMPOSER_HOME=$CACHE_DIR/composer-cache
 script:
